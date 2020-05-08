@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login {
+  border-radius: 25px;
+  width: 25%;
+  -webkit-box-shadow: 1px 2px 8px 2px gray;
+          box-shadow: 1px 2px 8px 2px gray;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.login:hover {
+  -webkit-box-shadow: 1px 2px 8px 5px gray;
+          box-shadow: 1px 2px 8px 5px gray;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.login .head {
+  border-radius: 25px 25px 0px 0px;
+  text-align: center;
+  padding-bottom: 50px;
+  background: black;
+}
+
+.login .head h2 {
+  padding: 50px 0px 60px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.login .head a {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border: none;
+  background-color: grey;
+}
+
+.login .head a:hover {
+  background-color: white;
+  color: black;
+}
+
+.login .login-content {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.login .login-content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .login-content form #text {
+  margin: 10px auto;
+  text-align: center;
+  width: 65%;
+  height: 40px;
+  border-radius: 25px;
+  padding: 20px;
+  border: none;
+  background: black;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  color: white;
+}
+
+.login .login-content form #text:hover {
+  width: 90%;
+}
+
+.login .login-content form #password {
+  margin: 10px auto;
+  text-align: center;
+  width: 65%;
+  height: 40px;
+  border-radius: 25px;
+  padding: 20px;
+  border: none;
+  background: black;
+  color: white;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.login .login-content form #password:hover {
+  width: 90%;
+}
+
+.login .login-content form a {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: black;
+  width: 100px;
+  margin: 10px auto 20px;
+  font-weight: bold;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.login .login-content form a:hover {
+  background-color: black;
+  color: white;
+}
+
+.login .login-content .contact {
+  font-size: 25px;
+}
+
+.login .login-content .contact .fab {
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0px 5px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.login .login-content .contact .fab:hover {
+  opacity: .7;
+}
+/*# sourceMappingURL=style.css.map */

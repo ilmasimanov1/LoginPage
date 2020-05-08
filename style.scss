@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background: rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    border-radius: 25px;
+    width: 25%;
+    box-shadow: 1px 2px 8px 2px gray;
+    transition: all 1s ease;
+    &:hover{
+        box-shadow: 1px 2px 8px 5px gray;
+        transform: scale(1.01);
+    }
+    .head{
+        border-radius: 25px 25px 0px 0px;
+        text-align: center;
+        padding-bottom: 50px;
+        background: black;
+        h2{
+            padding: 50px 0px 60px;
+            text-transform: uppercase;
+            color: white;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            border: 1px solid;
+            padding: 10px 25px;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            transition: all 1s ease;
+            border: none;
+            background-color: grey;
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+    .login-content{
+        text-align: center;
+        background: white;
+        padding: 20px;
+        border-radius:0px 0px 25px 25px;
+        form{
+            display: flex;
+            flex-direction: column;
+            #text{
+                margin:10px auto;
+                text-align: center;
+                width: 65%;
+                height: 40px;
+                border-radius: 25px;
+                padding: 20px;
+                border: none;
+                background: black;
+                transition: all 1s ease;
+                color: white;
+            }
+            #text:hover {
+                width: 90%;
+            }
+            #password{
+                margin:10px auto;
+                text-align: center;
+                width: 65%;
+                height: 40px;
+                border-radius: 25px;
+                padding: 20px;
+                border: none;
+                background: black;
+                color: white;
+                transition: all 1s ease;
+            }
+            #password:hover {
+                width: 90%;
+            }
+            a{
+                text-transform: uppercase;
+                text-decoration: none;
+                border: 1px solid black;
+                padding: 10px 25px;
+                border-radius: 25px;
+                color: black;
+                width: 100px;
+                margin:10px auto 20px;
+                font-weight: bold;
+                transition: all 1s ease;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .contact{
+            font-size: 25px;
+            .fab{
+                border-radius: 50%;
+                cursor: pointer;
+                margin: 0px 5px;
+                transition: all 1s ease;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+        }
+    }
+
+}
